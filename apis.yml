@@ -1,8 +1,17 @@
 aid: dualbird
 name: Dualbird
-description: Dualbird is a company surfaced as a portfolio company of lightspeed-venture-partners, uncork-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Dualbird is a data and AI infrastructure company building accelerated data
+  processing systems that speed up Apache Spark and Amazon EMR workloads by
+  10x-30x at 50%-90% lower cost, without code changes or migration. Founded by
+  Gilad Tal (CEO), Ohad Gamliel (Chief Engineer), and Ehud Eliaz (Chief Hardware
+  Architect) - a team with deep ASIC, FPGA, and high-performance computing
+  expertise - Dualbird optimizes enterprise data pipelines at the hardware and
+  software level to remove processing bottlenecks and let organizations maximize
+  data utilization beyond current GPU capabilities. The company raised a $25M
+  round backed by Lightspeed Venture Partners and Uncork Capital. As of this
+  enrichment pass Dualbird publishes a marketing and company site only - no
+  public API, developer documentation, SDKs, or GitHub organization were found.
 url: https://raw.githubusercontent.com/api-evangelist/dualbird/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +20,52 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Data
+- Data Processing
+- AI Infrastructure
+- Apache Spark
+- Amazon EMR
+- Analytics
+- Hardware Acceleration
+- Big Data
+image: https://dualbird.io/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/dualbird-domain-security.yml
+- type: Website
+  url: https://dualbird.io/
+- type: Blog
+  url: https://dualbird.io/resources
+- type: Support
+  url: https://dualbird.io/contact
+- type: TermsOfService
+  url: https://dualbird.io/terms-of-use
+- type: PrivacyPolicy
+  url: https://dualbird.io/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
